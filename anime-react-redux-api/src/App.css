@@ -1,9 +1,29 @@
 .App {
   text-align: center;
 }
+.app {
+  width: 800px;
+  /* border: 1px solid grey; */
+  margin: 20px auto;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card {
+}
+.card h2 {
+  word-break: break-all;
+}
 
 .App-logo {
   height: 40vmin;
+}
+
+.characters-display {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .App-header {
